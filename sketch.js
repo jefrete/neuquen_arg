@@ -13,52 +13,41 @@ background(0);
 
 function draw () {
  
-//fill(bellasA,bellasA,bellasA);
-//text("HIDE YOUR PAIN", random(0,1024),random(0,600));
-
-//epilepsia    
-//background(random(0,255),random(0,255),random(0,255));
+fill(bellasA,bellasA,bellasA);
+text("HIDE YOUR PAIN", random(0,1024),random(0,600));
 
 fill(random(0,255),random(0,255),random(0,255));
 ellipse(random(0,width),random(0,height),50);     
    
-/*fill(random(0,255),random(0,255),random(0,255));
+fill(random(0,255),random(0,255),random(0,255));
 ellipse(random(0,1024),random(0,600),random(0,100));
-*/
     
-/*fill(random(0,255),random(0,255),random(0,255));
+fill(random(0,255),random(0,255),random(0,255));
 ellipse(random(0,1024),random(0,600),50);
-*/
     
-/*    
-stroke(0,255,0);
+/*stroke(0,255,0);
 strokeWeight(5);
-//noFill();
+noFill();
 line(pmouseX, pmouseY, mouseX, mouseY);
 */
- 
-/*
+  
+
 fill(0,255,0)    
 rect(mouseX,mouseY,50,50)    
-*/
+
  
-/*let x = mouseX;
-  let y = mouseY;
-  let ix = width - mouseX;  // Inverse X
-  let iy = height - mouseY; // Inverse Y
-  background(126);
-  fill(255, 150);
-  ellipse(x, height/2, y, y);
-  fill(0, 159);
-  ellipse(ix, height/2, iy, iy);  
-*/
-    
-/*fill(255);
-//ellipse (100,100,50);
- 
-//ellipse(x, height/2, 20, 20);
-//x = x + 1;
+let x = mouseX;
+let y = mouseY;
+let ix = width - mouseX;
+let iy = height - mouseY;
+fill(255, 150);
+ellipse(x, height/2, y, y);
+fill(0, 159);
+ellipse(ix, height/2, iy, iy);  
+
+ellipse(x, height/2, 20, 20);
+x = x + 1;
         
-//fill(255);
-//rect(x,y,50,50);
+fill(255);
+rect(x,y,50,50);
 }
