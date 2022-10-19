@@ -14,7 +14,7 @@ background(0);
 
 function draw () {
  
-let img = createImg("https://png.pngitem.com/pimgs/s/734-7348206_meme-cringe-harold-dank-freetoedit-hide-the-pain.png");
+let img = createImg("https://www.meme-arsenal.com/memes/615dc2dfdc3914c5e9d0ece48ee3c679.jpg");
 
 img.position(random(0,1024),random(0,600));
 }
