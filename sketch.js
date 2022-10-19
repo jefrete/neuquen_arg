@@ -22,8 +22,8 @@ text("HIDE YOUR PAIN", random(0,1024),random(0,600));
 //epilepsia    
 //background(random(0,255),random(0,255),random(0,255));
 
-fill(random(0,255),random(0,255),random(0,255));
-    ellipse(random(0,width),random(0,height),50);     
+//fill(random(0,255),random(0,255),random(0,255));
+  //  ellipse(random(0,width),random(0,height),50);     
    
 /*fill(random(0,255),random(0,255),random(0,255));
 ellipse(random(0,1024),random(0,600),random(0,100));
