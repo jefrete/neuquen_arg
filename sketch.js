@@ -43,10 +43,10 @@ line(pmouseX, pmouseY, mouseX, mouseY);
     
 //HAROLD    
 
-/*let img = createImg("https://s3.getstickerpack.com/storage/uploads/sticker-pack/hide-the-pain-harold/sticker_5.png?35bc9a5413d14b83fb1eabdb6fe2523d&d=200x200");
+let img = createImg("https://s3.getstickerpack.com/storage/uploads/sticker-pack/hide-the-pain-harold/sticker_5.png?35bc9a5413d14b83fb1eabdb6fe2523d&d=200x200");
 
 img.position(random(0,1024),random(0,600));
-*/
+
     
     
 /*
