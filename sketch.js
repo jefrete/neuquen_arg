@@ -14,7 +14,7 @@ background(0);
 
 function draw () {
  
-let img = createImg("https://s3.getstickerpack.com/storage/uploads/sticker-pack/hide-the-pain-harold/sticker_5.png?35bc9a5413d14b83fb1eabdb6fe2523d&d=200x200");
+let img = createImg("https://png.pngitem.com/pimgs/s/734-7348206_meme-cringe-harold-dank-freetoedit-hide-the-pain.png");
 
 img.position(random(0,1024),random(0,600));
 }
