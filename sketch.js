@@ -1,6 +1,3 @@
-let bellasA;
-bellasA=random(0,255);
-
 function setup () {
 
 //createCanvas(windowWidth,windowHeight);
