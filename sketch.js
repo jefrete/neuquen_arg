@@ -15,6 +15,6 @@ background(0);
 function draw () {
  
 let img = createImg("https://cdn140.picsart.com/314801323394211.png?type=webp&to=min&r=640");
-
+img = loadImage('harold.png');
 img.position(random(0,1024),random(0,600));
 }
