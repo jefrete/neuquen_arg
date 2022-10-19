@@ -4,7 +4,9 @@ bellasA=random(0,255);
 
 function setup () {
 
-createCanvas(windowWidth,windowHeight);
+//createCanvas(windowWidth,windowHeight);
+createCanvas(1024,768);
+
 background(0);
 //line(15, 25, 70, 90);
 
