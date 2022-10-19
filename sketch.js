@@ -14,20 +14,8 @@ background(0);
 
 function draw () {
  
- 
 let bellasA;
 bellasA=random(0,255);
-
-function setup () {
-
-createCanvas(1024,600);
-background(0);
-//line(15, 25, 70, 90);
-
-}
-
-function draw () {
-    
 
 fill(bellasA,bellasA,random(0,255));
 text("HIDE YOUR PAIN", random(0,1024),random(0,600));
