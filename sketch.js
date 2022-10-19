@@ -15,8 +15,8 @@ background(0);
 function draw () {
     
 
-fill(bellasA,bellasA,random(0,255));
-text("HIDE YOUR PAIN", random(0,1024),random(0,600));
+//fill(bellasA,bellasA,random(0,255));
+//text("HIDE YOUR PAIN", random(0,1024),random(0,600));
 
 
 //epilepsia    
