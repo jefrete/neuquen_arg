@@ -1,6 +1,4 @@
 
-let x = 100;
-let y = 100;
 let bellasA;
 bellasA=random(0,255);
 
