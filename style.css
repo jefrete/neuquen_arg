@@ -8,6 +8,7 @@ html{
     padding: 0px;
 }
 header{
+    padding-top: 7px;
     margin: 13px;
     background-color: black;
 }
@@ -130,4 +131,25 @@ About
     flex-wrap:wrap;
     justify-content: center;
     background-color: #ffffff
+    }
+
+
+    footer{
+        background-image: url(asdasdasdsa.png);
+        font-family:Krub;
+        font-family:Roboto;
+        font-size: 87px;
+        font-weight: 700;
+        color: #ffffff;
+        border-radius: 2px;
+        border-color: #000000;
+        border: #000000;
+        -webkit-text-fill-color: rgb(255, 255, 255);
+-webkit-text-stroke: 1px rgb(0, 0, 0);
+        
+       
+    }
+    .piesito{
+        font-family:Amiri Quran;
+
     }
