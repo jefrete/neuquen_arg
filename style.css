@@ -1,19 +1,53 @@
+.flex-item {
+    width: calc(33.33333% - 40px);
+    margin: 20px;
+  }
 html{
+    background-color: #ffffff;
+    margin: 0px;
     padding: 0px;
-    /*display: block;
-    display: inline;*/
-    display: flex;
-    /*display: flexbox;*/
+}
+header{
+    margin: 13px;
     background-color: black;
 }
+.nav-pills {
+    --bs-nav-pills-border-radius: 2rem;
+    --bs-nav-pills-link-active-color: rgb(255, 0, 0);
+    --bs-nav-pills-link-active-bg: #00b47e;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 36px;
+}
+img{
+    width: 188px;
+}
+.nav{
+--bs-nav-link-color: #ffffff;
+font-family: roboto;
+background-color: #000000;
+color:rgb(112, 29, 29);
+;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #00ff73;
+    font-size: 26px;
+}
+
+
+
 
 #barritanav{
-    background-color: #000000;
+    background-color:#ffffff;
+    text-align: center;
+    margin: 0 10px 0 0;
+    
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #21213ed6;
-    background-color: #ffd37a;
+    color: #ffffffd6;
+    background-color: #ff0000;
 }
 
 #videitos{
@@ -28,7 +62,8 @@ html{
     align-items:flex-start;
     display: flex;
     align-items: center;
-    height: 100%;
+    justify-content: center;
+
 }
 
 #bannerban{
@@ -45,9 +80,16 @@ body{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    background: rgb(246, 231, 231);
-    background: linear-gradient(0deg, rgb(241, 234, 234) 0%, rgb(255, 255, 255) 100%);
+    background: rgb(197, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+}
 
+.nav-pills {
+    --bs-nav-pills-border-radius: 3rem;
+}
+
+a.nav-link{
+    margin: 0px;
 }
 
 #pipi{
@@ -68,3 +110,24 @@ body{
     font-size: 100px;
     font-family:Helvetica,Arial, sans-serif;
 }
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color: #ffffff
+    }
