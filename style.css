@@ -25,7 +25,8 @@ img{
 }
 .nav{
 --bs-nav-link-color: #ffffff;
-font-family: roboto;
+font-family: arial;
+    font size:33px;
 background-color: #000000;
 color:rgb(112, 29, 29);
 ;
@@ -35,10 +36,6 @@ color:rgb(112, 29, 29);
     background-color: #00ff73;
     font-size: 26px;
 }
-
-
-
-
 #barritanav{
     background-color:#ffffff;
     text-align: center;
