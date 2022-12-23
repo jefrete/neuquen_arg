@@ -3,7 +3,6 @@
     margin: 20px;
   }
 html{
-    background-color: #ffffff;
     margin: 0px;
     padding: 0px;
 }
@@ -79,7 +78,8 @@ body{
     padding: 0px;
     width: 100%;
     background: rgb(197, 0, 0);
-    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    background-color:red;
+
 }
 
 .nav-pills {
