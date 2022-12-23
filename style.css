@@ -21,6 +21,7 @@ header{
 }
 img{
     width: 128px;
+    margin:3px;
 }
 .nav{
 --bs-nav-link-color: #ffffff;
