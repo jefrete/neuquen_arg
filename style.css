@@ -1,16 +1,17 @@
-.flex-item {
-    width: calc(33.33333% - 40px);
-    margin: 20px;
-  }
+
 html{
     margin: 0px;
     padding: 0px;
 }
 header{
-    padding-top: 7px;
-    margin: 13px;
     background-color: black;
+		margin: 3px;
 }
+.flex-item {
+    width: calc(33.33333% - 40px);
+    margin: 20px;
+  }
+
 .nav-pills {
     --bs-nav-pills-border-radius: 2rem;
     --bs-nav-pills-link-active-color: rgb(255, 0, 0);
@@ -19,17 +20,16 @@ header{
     align-items: center;
     font-size: 36px;
 }
+.nav{
+--bs-nav-link-color: #ffffff;
+font-family: Verdana;
+font-size: 1.3rem;
+background-color: #000000;
+color:rgb(0, 0, 0);
+}
 img{
     width: 128px;
     margin:3px;
-}
-.nav{
---bs-nav-link-color: #ffffff;
-font-family: Arial;
-font-size: 1.7rem;
-background-color: #000000;
-color:rgb(0, 0, 0);
-;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
@@ -40,14 +40,11 @@ color:rgb(0, 0, 0);
     background-color:#ffffff;
     text-align: center;
     margin: 0 10px 0 0;
-    
 }
-
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #ffffffd6;
     background-color: #ff0000;
 }
-
 #videitos{
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -63,14 +60,11 @@ color:rgb(0, 0, 0);
     justify-content: center;
 
 }
-
 #bannerban{
-    background-color: #212529;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 body{
     justify-content: center;
     align-items: center;
@@ -78,19 +72,13 @@ body{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    background: rgb(197, 0, 0);
-    background-color:red;
-
 }
-
 .nav-pills {
     --bs-nav-pills-border-radius: 3rem;
 }
-
 a.nav-link{
     margin: 0px;
 }
-
 #pipi{
     margin: 0px;
     padding: 0px;
@@ -99,7 +87,6 @@ a.nav-link{
     align-items:center;
     justify-content: space-around;
  }
-
 #botonazo {
     width: 50%;
     height: 150px;
@@ -109,20 +96,6 @@ a.nav-link{
     font-size: 100px;
     font-family:Helvetica,Arial, sans-serif;
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -130,12 +103,9 @@ About
     justify-content: center;
     background-color: #ffffff
     }
-
-
-    footer{
+footer{
         background-image: url(asdasdasdsa.png);
-        font-family:Krub;
-        font-family:Roboto;
+        font-family:arial;
         font-size: 87px;
         font-weight: 700;
         color: #ffffff;
@@ -143,11 +113,8 @@ About
         border-color: #000000;
         border: #000000;
         -webkit-text-fill-color: rgb(255, 255, 255);
--webkit-text-stroke: 1px rgb(0, 0, 0);
-        
-       
-    }
-    .piesito{
+				-webkit-text-stroke: 1px rgb(0, 0, 0);       
+			}
+.piesito{
         font-family:Amiri Quran;
-
     }
