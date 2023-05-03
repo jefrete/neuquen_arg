@@ -19,11 +19,16 @@
         }
 
         #television {
-            top: 10px;
+            top: 39px;
+    left: 25px;
+    width: 85%;
+    height: 85%;
+    position: absolute;
+          /*  top: 10px;
             left: -10px;
             width: 90%;
             height: 90%;
-            position: absolute;
+            position: absolute;*/
         }
 
         #culo2 {
@@ -37,14 +42,14 @@
 
         #button1 {
             position: absolute;
-            top: 53px;
+            top: 50px;
             right: 36px;
             z-index: 2;
         }
 
         #button2 {
             position: absolute;
-            top: 96px;
+            top: 90px;
             right: 40px;
             z-index: 2;
         }
@@ -59,10 +64,39 @@
 
         #button4 {
             position: absolute;
+            top: 245px;
+            right: 100px;
+            z-index: 2;
+        }
+
+        #volu {
+            width: 70px;
+            height: 50px;
+        }
+
+        #button5 {
+            position: absolute;
             top: 160px;
             right: 40px;
             z-index: 2;
         }
+
+        #button6{
+            position: absolute;
+            top: 190px;
+            right: 40px;
+            z-index: 2;
+        }
+
+        #button7 {
+            position: absolute;
+            top: 220px;
+            right: 40px;
+            z-index: 2;
+        }
+
+
+
     </style>
 </head>
 
@@ -76,10 +110,15 @@
             <div id="culo2"></div>
 
         </div>
-        <button id="button1" onclick="cambiarCanal('contenido_clasico')">LOS SIMPSONS</button>
+        <button id="button1" onclick="cambiarCanal('tres_sesenta')">SOUTH PARK</button>
         <button id="button2" onclick="cambiarCanal('retrotvlatam')">EL CHAVO</button>
         <button id="button3" onclick="cambiarCanal('sp_godlatino')">OTRO SOUTH PARK</button>
-        <button id="button4" onclick="mutear()">ACTIVAR SONIDO</button>
+        <button id="button4" onclick="mutear()"><img src="rome.png" id="volu" alt="">
+            <button id="button5" onclick="cambiarCanal('pichard31_')">AMERICAN DAD</button>
+            <button id="button6" onclick="cambiarCanal('streamingflixx')">streamingflixx</button>
+            <button id="button7" onclick="cambiarCanal('clickpark')"> SOUTH PARK</button>
+
+        </button>
 
 
     </div>
@@ -89,14 +128,14 @@
         var options = {
             width: "100%",
             height: "100%",
-            channel: "tchpro",
-            muted:'false',
+            channel: "contenido_clasico",
+            muted: 'false',
 
         };
 
     </script>
 
-<script>
+    <script>
         var player = new Twitch.Player("culo2", options);
         function cambiarCanal(rrrr) {
             var canal = rrrr;
@@ -106,17 +145,20 @@
         }
 
         function mutear() {
-                player.destroy();
-                player = new Twitch.Player("culo2", options);
+            player.destroy();
+            player = new Twitch.Player("culo2", options);
 
         }
-        function ano(){
+        function ano() {
             player.destroy();
-            player = new Twitch.Player("culo2", options);        }
+            player = new Twitch.Player("culo2", options);
+        }
         ano();
 
     </script>
 
 </body>
+
+</html>
 
 </html>
