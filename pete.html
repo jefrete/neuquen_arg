@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <title>VALLE CREATIVO</title>
     <link rel="stylesheet" type="text/css" href="pete.css">
-
-</head>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" </head>
 
 <body>
 
@@ -17,24 +17,24 @@
             <div id="culo2"></div>
         </div>
 
-        <button id="button1" class="botija" onclick="cambiarCanal(lista[0])">1</button>
-        <button id="button2" class="botija" onclick="cambiarCanal(lista[1])">2</button>
-        <button id="button3" class="botija" onclick="cambiarCanal(lista[2])">3</button>
-        <button id="button4" class="botija" onclick="cambiarCanal(lista[3])">4</button>
-        <button id="button5" class="botija" onclick="cambiarCanal(lista[4])">5</button>
-        <button id="button6" class="botija" onclick="cambiarCanal(lista[5])">6</button>
-        <button id="button7" class="botija" onclick="cambiarCanal(lista[6])">7</button>
-        <button id="button8" class="botija" onclick="cambiarCanal(lista[7])">8</button>
-        <button id="button9" class="botija" onclick="cambiarCanal(lista[8])">9</button>
+        <div id="controlRemoto">
+            <div id="botonera" class="grid-container">
+                <button onclick="cambiarCanal(lista[0])" class="grid-item">1</button>
+                <button onclick="cambiarCanal(lista[1])" class="grid-item">2</button>
+                <button onclick="cambiarCanal(lista[2])" class="grid-item">3</button>
+                <button onclick="cambiarCanal(lista[3])" class="grid-item">4</button>
+                <button onclick="cambiarCanal(lista[4])" class="grid-item">5</button>
+                <button onclick="cambiarCanal(lista[5])" class="grid-item">6</button>
+                <button onclick="cambiarCanal(lista[6])" class="grid-item">7</button>
+                <button onclick="cambiarCanal(lista[7])" class="grid-item">8</button>
+                <button onclick="cambiarCanal(lista[8])" class="grid-item">9</button>
+            </div>
 
-
-        <button id="buttonmin" onclick="cambiome()">CANAL - </button>
-        <button id="buttonmas" onclick="cambioma()">CANAL + </button>
-
-        <img src="rome.png" onclick="mutear()" id="volu" alt="">
-
-        </button>
-
+            <div id="masmenos">
+                <button onclick="cambiome()">CANAL - </button>
+                <button onclick="cambioma()">CANAL + </button>
+            </div>
+        </div>
     </div>
 
     <script src="https://player.twitch.tv/js/embed/v1.js"></script>
@@ -50,5 +50,7 @@
     </script>
 
     <script src="pete.js"></script>
-
+    
 </body>
+
+</html>
