@@ -1,13 +1,13 @@
 lista = [
-    'tres_sesenta',
-    'twitch_siempre',
-    'tchpro',
-    'techtrend',
-    'clubamigosdelaweb',
-    'clickpark',
-    'papi_tvg',
     'sp_godlatino',
-    'ranmaseries'
+    'tchpro',
+    'clubamigosdelaweb',
+    'ranmaseries',
+    'elprofecool',
+    'coffetv_',
+    'schnauzer_hoff',
+    'sp_godlatino',
+    'normieshow'
 ]
 
 var canal = 0;
