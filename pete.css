@@ -1,24 +1,27 @@
 body {
     background-image: url('pppp.jpg');
-    width: 100%;
-    height: 95%;
+    width: 100vw;
+    height: 100vh;
     background-color: rgb(32, 185, 1);
 }
 
 #contenido {
-    width: 100%;
+    width: 95%;
     height: 80%;
-    /*background-color: orangered;*/
+    /* background-color: orangered; */
     display: flex;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 #television {
     top: 20px;
     left: 25px;
     width: 80%;
-    height: 100vh;
+    height: 100%;
     /*background-color: royalblue;*/
     display: flex;
     align-items: center;
@@ -26,17 +29,16 @@ body {
 
 #culo2 {
     width: 100%;
-    height: 90%;
-    margin: 20px;
+    height: 100%;
     /*background-color: deeppink;*/
     align-items: center;
 }
 
 #controlRemoto {
     display: flex;
-    background-color: #ffff00;
-    width: 12%;
-    height: 90%;
+    background-color: #15ff00;
+    width: 15%;
+    height: auto;
     flex-wrap: wrap;
     justify-content: center;
     padding: 15px;
