@@ -110,10 +110,12 @@ button {
         margin: 15px;
         padding: 15px;
         width: 40%;
+        height: auto;
+
         border-radius: 20px;
         border-width: 3px;
         border-style: solid;
-        background-color: #e21616;
+        background-color: #15ff00;
     }
 
     #botonera {
@@ -177,7 +179,9 @@ button {
     #controlRemoto {
         display: flex;
         width: 15%;
-        background-color: #ff1100;
+        height: auto;
+
+        background-color: #33ff00;
     }
 
     #botonera {
