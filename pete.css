@@ -173,7 +173,7 @@ button {
     #controlRemoto {
         display: flex;
         width: 15%;
-    }
+background-color: #535307;    }
 
     #botonera {
         display: grid;
