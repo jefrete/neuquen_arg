@@ -151,15 +151,15 @@ button {
     #contenido {
         display: flex;
         flex-direction: row;
-        width: 95%;
-        height: 95vh;
+        width: 90%;
+        height: 90vh;
         align-items: center;
     }
 
     #television {
         display: flex;
         width: 100%;
-        height: 90vh;
+        height: 85vh;
         justify-content: center;
     }
 
