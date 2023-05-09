@@ -2,12 +2,12 @@ lista = [
     'sp_godlatino',
     'tchpro',
     'clubamigosdelaweb',
+    'twitch_siempre',
     'ranmaseries',
-    'elprofecool',
     'campobrs',
     'techtrend',
     'sp_godlatino',
-    'cartooncartoons1995'
+    'saintobronze40'
 ]
 
 var canal = 0;
