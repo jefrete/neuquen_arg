@@ -4,10 +4,10 @@ lista = [
     'clubamigosdelaweb',
     'ranmaseries',
     'elprofecool',
-    'coffetv_',
-    'schnauzer_hoff',
+    'campobrs',
+    'techtrend',
     'sp_godlatino',
-    'normieshow'
+    'cartooncartoons1995'
 ]
 
 var canal = 0;
