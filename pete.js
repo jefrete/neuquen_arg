@@ -4,10 +4,10 @@ lista = [
     'clubamigosdelaweb',
     'twitch_siempre',
     'ranmaseries',
-    'papi_tvg',
-    'techtrend',
+    'ovin00',
+    'saintobronze40',
     'sp_godlatino',
-    'saintobronze40'
+    'techtrend'
 ]
 
 var canal = 0;
