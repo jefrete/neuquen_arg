@@ -1,8 +1,8 @@
 lista = [
-    'sp_godlatino',
+    'twitch_siempre',
     'tchpro',
     'clubamigosdelaweb',
-    'twitch_siempre',
+    'cartooncartoons1995',
     'ranmaseries',
     'ovin00',
     'saintobronze40',
