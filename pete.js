@@ -7,7 +7,7 @@ lista = [
     'ovin00',
     'saintobronze40',
     'sp_godlatino',
-    'techtrend'
+    'entretenimientomasivo'
 ]
 
 var canal = 0;
