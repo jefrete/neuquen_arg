@@ -1,37 +1,46 @@
-body {
-    background-image: url('pppp.jpg');
+html {
+    font-size: 15px;
     width: 100vw;
     height: 100vh;
+}
+
+body {
+    background-image: url('pppp.jpg');
+    width: 95%;
+    height: 95%;
     background-color: rgb(32, 185, 1);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #contenido {
-    width: 95%;
-    height: 80%;
-    /* background-color: orangered; */
+    width: 100%;
+    height: 100%;
     display: flex;
+    align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
-    justify-content: space-around;
-    align-items: flex-start;
-    
+    justify-content: space-between;
+
 }
 
 #television {
-    top: 20px;
-    left: 25px;
     width: 80%;
-    height: 100%;
-    /*background-color: royalblue;*/
+    height: 90%;
     display: flex;
     align-items: center;
+    margin: 1em;
+
+
 }
 
 #culo2 {
     width: 100%;
     height: 100%;
-    /*background-color: deeppink;*/
     align-items: center;
 }
 
@@ -42,40 +51,33 @@ body {
     height: auto;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 15px;
-    border-radius: 20px;
-    border-width: 3px;
+    padding: 0.5em;
+    border-radius: 1em;
     border-style: solid;
 }
-
 
 #botonera {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.1em;
 }
 
 #masmenos {
+    padding: 0.5em;
+    justify-content: center;
     display: flex;
-    display: grid;
-    padding: 10px;
+    flex-wrap: wrap;
+
 
 }
 
 button {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 20px;
-    border-width: 3px;
+    font-size: 1.5rem;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 1em;
     border-style: solid;
-
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
-    grid-gap: 10px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -88,11 +90,13 @@ button {
 
     #contenido {
         display: flex;
-        flex-direction: column;
         width: 95vw;
         height: 85vh;
+        margin-top: 2em;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
         align-items: center;
-            margin-top: 2rem;
     }
 
     #television {
@@ -110,43 +114,42 @@ button {
     }
 
     #controlRemoto {
-            display: flex;
-    margin: 1em;
-    width: auto;
-    height: auto;
-    border-radius: 1em;
-    border-width: 0.1em;
-    border-style: solid;
-    background-color: #15ff00;
+        display: flex;
+        margin: 1em;
+        width: auto;
+        height: auto;
+        border-radius: 1em;
+        border-width: 0.1em;
+        border-style: solid;
+        background-color: #15ff00;
     }
 
     #botonera {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        padding: 15px;
+        padding: 1em;
 
     }
 
     #masmenos {
         display: flex;
-        display: grid;
-        padding: 10px;
-
+        padding: 1em;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
     }
 
     button {
-          font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0.4em;
-    margin: 0.1em;
-    border-radius: 1em;
-    border-width: 0.1em;
-    border-style: solid;
-
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.4em;
+        margin: 0.1em;
+        border-radius: 1em;
+        border-width: 0.1em;
+        border-style: solid;
     }
 }
-
-
 
 @media (min-width: 501px) and (max-width: 1000px) {
     body {
@@ -160,8 +163,9 @@ button {
         display: flex;
         flex-direction: row;
         width: 95vw;
-        height: 90vh;
+        height: 85vh;
         align-items: center;
+        margin: 1em;
     }
 
     #television {
@@ -182,8 +186,10 @@ button {
         display: flex;
         width: 15%;
         height: auto;
-
+        margin: 1em;
         background-color: #33ff00;
+        border-radius: 1em;
+
     }
 
     #botonera {
@@ -192,15 +198,21 @@ button {
     }
 
     #masmenos {
-        display: grid;
-        padding: 3px;
-
+        padding: 0.5em;
+        display: flex;
+        padding: 0.5em;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 
     button {
-        font-size: 15px;
+        font-size: 1rem;
         font-family: Helvetica, sans-serif;
-        margin: 3px;
+        margin: 0.5em;
+        border-radius: 1em;
 
     }
 
