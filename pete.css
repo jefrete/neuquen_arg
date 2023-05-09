@@ -110,16 +110,15 @@ button {
     }
 
     #controlRemoto {
-        display: flex;
-        margin: 15px;
-        padding: 15px;
-        width: 40%;
-        height: auto;
-
-        border-radius: 20px;
-        border-width: 3px;
-        border-style: solid;
-        background-color: #15ff00;
+            display: flex;
+    margin: 1em;
+    /* padding: 1em; */
+    width: auto;
+    height: auto;
+    border-radius: 1em;
+    border-width: 0.1em;
+    border-style: solid;
+    background-color: #15ff00;
     }
 
     #botonera {
