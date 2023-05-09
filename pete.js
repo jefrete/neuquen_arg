@@ -4,7 +4,7 @@ lista = [
     'clubamigosdelaweb',
     'twitch_siempre',
     'ranmaseries',
-    'campobrs',
+    'papi_tvg',
     'techtrend',
     'sp_godlatino',
     'saintobronze40'
