@@ -1,5 +1,5 @@
 lista = [
-    'twitch_siempre',
+    'entretenimientomasivo',
     'tchpro',
     'clubamigosdelaweb',
     'cartooncartoons1995',
