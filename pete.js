@@ -7,7 +7,7 @@ lista = [
     'ovin00',
     'sp_godlatino',
     'saintobronze40',
-    'tuanimeonlive'
+    'losins0h'
 ]
 
 var canal = 0;
