@@ -5,8 +5,8 @@ lista = [
     'twitch_siempre',
     'ranmaseries',
     'ovin00',
-    'saintobronze40',
     'sp_godlatino',
+    'saintobronze40',
     'tuanimeonlive'
 ]
 
