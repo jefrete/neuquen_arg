@@ -1,0 +1,24 @@
+body {
+    padding: 10px;
+
+
+}
+
+#contenido {
+    margin: 1px;
+    padding: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    /* Styles for devices with screen width less than 600px */
+    header {
+      /* Modify the header styles for smaller screens */
+    }
+  
+    #section1, #section2 {
+      /* Adjust the layout of the sections for smaller screens */
+    }
+  }
