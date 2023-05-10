@@ -1,6 +1,6 @@
 lista = [
     'javizpk',
-    'techtvs1',
+    'tchpro',
     'clubamigosdelaweb',
     'cartooncartoons1995',
     'ranmaseries',
