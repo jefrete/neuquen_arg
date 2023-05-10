@@ -1,8 +1,8 @@
 lista = [
-    'javizpk',
+    'entretenimientomasivo',
     'tchpro',
     'clubamigosdelaweb',
-    'cartooncartoons1995',
+    'twitch_siempre',
     'ranmaseries',
     'ovin00',
     'saintobronze40',
