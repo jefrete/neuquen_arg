@@ -6,210 +6,156 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Krub+Roboto+Alphabet ">
-
-    <style>
-        #contenido {
-            margin: 1px;
-            padding: 10px;
-        }
-
-        body {
-            padding: 10px;
-        }
-    </style>
 
 </head>
 
 <body>
 
+
     <header>
 
-        <div class="bg-black mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a class="flex title-font font-medium items-center text-white-400 mb-4 md:mb-0">
+        <div class="bg-black mx-auto flex flex-wrap p-5 flex-col sm:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white-400 mb-4 sm:mb-0">
                 <div style="width: 200px; height: 150px;">
                     <img src="vixxion.png" style="width: 100%; height: 100%; object-fit: contain;">
                 </div>
                 <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-white-400 text-base justify-center">
                     <a href="https://chat.openai.com" class="mr-5 text-white hover:text-red-300">GPT</a>
                     <a href="https://neuquen.weebly.com" class="mr-5 text-white hover:text-red-300">Neuquen.weebly</a>
-                    <a href="https://www.facebook.com/neuquen8300" class="mr-5 text-white hover:text-red-300">Neuquen.indy</a>
-                    <a href="https://www.instagram.com/vallecreativosur" class="mr-5 text-white hover:text-red-300">Valle Creativo Sur</a>
-                                                        <a href="./pete.html" class="mr-5 text-white hover:text-red-300">TvSur</a>
+                    <a href="https://www.facebook.com/neuquen8300"
+                        class="mr-5 text-white hover:text-red-300">Neuquen.indy</a>
+                    <a href="https://www.instagram.com/vallecreativosur"
+                        class="mr-5 text-white hover:text-red-300">Valle Creativo Sur</a>
+                    <a href="./pete.html" class="mr-5 text-white hover:text-red-300">TvSur</a>
 
-</nav>
+                </nav>
             </a>
         </div>
 
     </header>
 
-    <header class="bg-black text-white">
+    <div id="contenido1" class="flex flex-wrap sm:flex-no-wrap items-center w-full">
+        <div class=" sm:w-1/3 rounded-t sm:rounded-l sm:rounded-t-none shadow bg-white">
 
-
-        <div id="contenido" class="container flex-col">
-
-            <div id="section1" class="flex wrap">
-                <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-                <div id="culo1" class="basis-1/3"></div>
-                <script type="text/javascript">
-                    var options = {
-                        width: 400,
-                        height: 300,
-                        channel: "sp_godlatino",
-                        autoplay: false,
-                        video: "<video ID>",
-                        collection: "<collection ID>",
-                        // only needed if your site is also embedded on embed.example.com and othersite.example.com
-                        parent: ["embed.example.com", "othersite.example.com"]
-                    };
-                    var player = new Twitch.Player("culo1", options);
-                    player.setVolume(0.5);
-                </script>
-
-                <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-                <div id="culo2" class="basis-1/3"></div>
-                <script type="text/javascript">
-                    var options = {
-                        width: 400,
-                        height: 300,
-                        channel: "clickpark",
-                        autoplay: false,
-                        video: "<video ID>",
-                        collection: "<collection ID>",
-                        // only needed if your site is also embedded on embed.example.com and othersite.example.com
-                        parent: ["embed.example.com", "othersite.example.com"]
-                    };
-                    var player = new Twitch.Player("culo2", options);
-                    player.setVolume(0.5);
-                </script>
-
-                <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-                <div id="culo3" class="basis-1/3"></div>
-
-                <script type="text/javascript">
-
-                    var options = {
-
-                        width: 400,
-
-                        height: 300,
-
-                        channel: "tchpro",
-                        autoplay: false,
-
-                        video: "<video ID>",
-
-                        collection: "<collection ID>",
-
-                        // only needed if your site is also embedded on embed.example.com and othersite.example.com
-
-                        parent: ["embed.example.com", "othersite.example.com"]
-
-                    };
-
-                    var player = new Twitch.Player("culo3", options);
-
-                    player.setVolume(0.5);
-
-                </script>
-
-                <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-            </div>
-
-            <div id="section2" class="flex flex-row">
-
-                <div id="culo4" class="basis-1/3"></div>
-
-                <script type="text/javascript">
-
-                    var options = {
-
-                        width: 400,
-
-                        height: 300,
-
-                        channel: "tres_sesenta",
-                        autoplay: false,
-
-                        video: "<video ID>",
-
-                        collection: "<collection ID>",
-
-                        // only needed if your site is also embedded on embed.example.com and othersite.example.com
-
-                        parent: ["embed.example.com", "othersite.example.com"]
-
-                    };
-
-                    var player = new Twitch.Player("culo4", options);
-
-                    player.setVolume(0.5);
-
-                </script>
-
-                <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-                <div id="culo5" class="basis-1/3"></div>
-                <script type="text/javascript">
-                    var options = {
-                        width: 400,
-                        height: 300,
-                        channel: "ranmaseries",
-                        autoplay: false,
-                        video: "<video ID>",
-                        collection: "<collection ID>",
-                        // only needed if your site is also embedded on embed.example.com and othersite.example.com
-                        parent: ["embed.example.com", "othersite.example.com"]
-                    };
-                    var player = new Twitch.Player("culo5", options);
-                    player.setVolume(0.5);
-                </script>
-
-                <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-                <div id="culo6" class="basis-1/3"></div>
-                <script type="text/javascript">
-                    var options = {
-                        width: 400,
-                        height: 300,
-                        channel: "andolento",
-                        autoplay: false,
-                        video: "<video ID>",
-                        collection: "<collection ID>",
-                        parent: ["embed.example.com", "othersite.example.com"]
-                    };
-                    var player = new Twitch.Player("culo6", options);
-                    player.setVolume(0.5);
-                </script>
-            </div>
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+            <div id="culo1"></div>
+            <script type="text/javascript">
+                var options = {
+                    width: "100%",
+                    height: "100%",
+                    channel: "sp_godlatino",
+                    autoplay: false,
+                };
+                var player = new Twitch.Player("culo1", options);
+                player.setVolume(0.5);
+            </script>
 
         </div>
-        <footer>
-            <div id="piesito">
 
-            </div>
-        </footer>
+        <div class=" sm:w-1/3 rounded-t sm:rounded-l sm:rounded-t-none shadow bg-white">
+
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+            <div id="culo2"></div>
+            <script type="text/javascript">
+                var options = {
+                    width: "100%",
+                    height: "100%",
+                    channel: "clickpark",
+                    autoplay: false,
+                };
+                var player = new Twitch.Player("culo2", options);
+                player.setVolume(0.5);
+            </script>
+
         </div>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
+        <div class=" sm:w-1/3 rounded-t sm:rounded-l sm:rounded-t-none shadow bg-white">
 
-        <script src="script.js"></script>
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+            <div id="culo3"></div>
+            <script type="text/javascript">
+                var options = {
+                    width: "100%",
+                    height: "100%",
+                    channel: "tchpro",
+                    autoplay: false,
+                };
+                var player = new Twitch.Player("culo3", options);
+                player.setVolume(0.5);
+            </script>
 
+        </div>
+    </div>
 
-        <link href='http://fonts.googleapis.com/css?family=Cherry+Cream+Soda|Yanone+Kaffeesatz' rel='stylesheet'
-            type='text/css' />
+    <div id="contenido2" class="grid sm:grid-cols-3 gap-4 ">
+        <div>
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+            <div id="culo4"></div>
+            <script type="text/javascript">
+                var options = {
+                    width: "100%",
+                    height: "100%",
+                    channel: "tchpro",
+                    autoplay: false,
+                };
+                var player = new Twitch.Player("culo4", options);
+            </script>
+        </div>
+
+        <div>
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+            <div id="culo5"></div>
+            <script type="text/javascript">
+                var options = {
+                    width: "100%",
+                    height: "100%",
+                    channel: "ranmaseries",
+                    autoplay: false,
+                };
+                var player = new Twitch.Player("culo5", options);
+            </script>
+        </div>
+        
+        <div>
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+            <div id="culo6"></div>
+            <script type="text/javascript">
+                var options = {
+                    width: "100%",
+                    height: "100%",
+                    channel: "andolento",
+                    autoplay: false,
+                };
+                var player = new Twitch.Player("culo6", options);
+            </script>
+        </div>
+
+    </div>
+    <footer>
+        <div id="piesito" class="bg-black text-white">
+            <p> ... Amo el fulbo, algunos se ríen por el tema del fulbo".</p>
+        </div>
+    </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Cherry+Cream+Soda|Yanone+Kaffeesatz' rel='stylesheet'
+        type='text/css' />
+
+    <script src="index.js" .js"></script>
+
 </body>
 
 </html>
