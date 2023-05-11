@@ -5,7 +5,7 @@ lista = [
     'twitch_siempre',
     'ranmaseries',
     'sp_godlatino',
-    'sp_godlatino',
+    'peliz4kparacapos',
     'saintobronze40',
     'techtrend'
 ]
