@@ -4,7 +4,7 @@ lista = [
     'cartooncartoons1995',
     'twitch_siempre',
     'ranmaseries',
-    'ovin00',
+    'sp_godlatino',
     'sp_godlatino',
     'saintobronze40',
     'techtrend'
