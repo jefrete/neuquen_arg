@@ -1,7 +1,7 @@
 lista = [
-    'entretenimientomasivo',
-    'tchpro',
     'clubamigosdelaweb',
+    'twitch_siempre',
+    'cartooncartoons1995',
     'twitch_siempre',
     'ranmaseries',
     'ovin00',
