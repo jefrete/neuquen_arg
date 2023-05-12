@@ -2,7 +2,7 @@ lista = [
     'clubamigosdelaweb',
     'sp_godlatino',
     'tchpro',
-    'javizpk',
+    'retromaniacos',
     'ranmaseries',
     'tres_sesenta',
     'peliz4kparacapos',
