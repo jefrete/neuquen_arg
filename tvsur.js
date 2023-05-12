@@ -2,7 +2,7 @@ lista = [
     'clubamigosdelaweb',
     'techtvs1',
     'cartooncartoons1995',
-    'twitch_siempre',
+    'javizpk',
     'ranmaseries',
     'sp_godlatino',
     'peliz4kparacapos',
