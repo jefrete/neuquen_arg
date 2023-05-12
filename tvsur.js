@@ -1,10 +1,10 @@
 lista = [
     'clubamigosdelaweb',
-    'campobrs',
-    'cartooncartoons1995',
+    'sp_godlatino',
+    'tchpro',
     'javizpk',
     'ranmaseries',
-    'sp_godlatino',
+    'tres_sesenta',
     'peliz4kparacapos',
     'saintobronze40',
     'tuanimeonlive'
