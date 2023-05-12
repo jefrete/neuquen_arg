@@ -7,7 +7,7 @@ lista = [
     'sp_godlatino',
     'peliz4kparacapos',
     'saintobronze40',
-    'losinsnshd'
+    'tuanimeonlive'
 ]
 
 var canal = 0;
