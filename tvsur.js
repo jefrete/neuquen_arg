@@ -1,6 +1,6 @@
 lista = [
     'clubamigosdelaweb',
-    'techtvs1',
+    'campobrs',
     'cartooncartoons1995',
     'javizpk',
     'ranmaseries',
