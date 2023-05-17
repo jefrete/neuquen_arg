@@ -1,195 +1,171 @@
 html {
-    font-size: 15px;
-    width: 100vw;
-    height: 100vh;
+    font-size: 25px;
 }
 
 body {
-    background-image: url('tvsur-fondo.jpg');
-    width: 95%;
-    height: 95%;
+    background-image: url(fondo.jpg);
+    width: 100vw;
+    height: 100vh;
     background-color: rgb(32, 185, 1);
+    /* align-content: center; */
     display: flex;
-    align-content: center;
-    align-items: center;
     justify-content: center;
-
+    align-items: center;
 }
 
 #contenido {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
+    /* background-color: orangered; */
     display: flex;
-    align-items: center;
     flex-direction: row;
-    flex-wrap: nowrap;
     align-content: center;
-    justify-content: space-between;
-
+    align-items: center;
+    justify-content: space-around;
 }
 
 #television {
     width: 80%;
-    height: 90%;
+    height: 85%;
+    /*background-color: royalblue;*/
     display: flex;
     align-items: center;
-    margin: 1em;
-
-
 }
 
 #culo2 {
     width: 100%;
     height: 100%;
-    align-items: center;
 }
 
 #controlRemoto {
-    display: flex;
     background-color: #15ff00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 15%;
     height: auto;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0.5em;
-    border-radius: 1em;
+    padding: 0.1em;
+    border-radius: 0.7em;
+    border-width: 0.1em;
     border-style: solid;
+    margin: 0.1em;
+
 }
 
 #botonera {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0.1em;
 }
 
 #masmenos {
-    padding: 0.5em;
-    justify-content: center;
     display: flex;
-    flex-wrap: wrap;
-
-
+    display: grid;
+    padding: 0.1em;
 }
 
 button {
     font-size: 1.5rem;
-    font-family: Helvetica, Arial, sans-serif;
-    padding: 0.5em;
-    margin: 0.5em;
-    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.1em;
+    margin: 0.1em;
+    border-radius: 0.5em;
+    border-width: 0.1em;
     border-style: solid;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    grid-gap: 0.1em;
 }
 
 @media only screen and (max-width: 500px) {
     body {
-        display: flex;
-        justify-content: center;
-        width: 100vw;
+      
+        width: 95vw;
         height: 95vh;
     }
 
     #contenido {
         display: flex;
+        flex-direction: column;
         width: 95vw;
         height: 85vh;
-        margin-top: 2em;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+        align-content: center;
+        justify-content: center;
         align-items: center;
     }
 
     #television {
         display: flex;
         width: 100%;
-        height: auto;
         justify-content: center;
     }
 
-    #culo2 {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-    }
 
     #controlRemoto {
         display: flex;
-        margin: 1em;
-        width: auto;
+        margin: 0.5em;
+        padding: 0.1em;
+        width: 40%;
         height: auto;
-        border-radius: 1em;
+
+        border-radius: 0.7em;
         border-width: 0.1em;
         border-style: solid;
-        background-color: #15ff00;
     }
 
     #botonera {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        padding: 1em;
+        padding: 0.1em;
 
     }
 
     #masmenos {
         display: flex;
-        padding: 1em;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: center;
-        justify-content: space-around;
+        display: grid;
+        padding: 0.1em;
+
     }
 
     button {
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-family: Arial, Helvetica, sans-serif;
-        padding: 0.4em;
+        padding: 0.1em;
         margin: 0.1em;
-        border-radius: 1em;
+        border-radius: 0.7em;
         border-width: 0.1em;
         border-style: solid;
+
     }
 }
 
-@media (min-width: 501px) and (max-width: 1000px) {
-    body {
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-        height: 100vh;
-    }
+@media (min-width: 501px) and (max-width: 749px) {
+  
 
     #contenido {
         display: flex;
         flex-direction: row;
-        width: 95vw;
-        height: 85vh;
+        width: 95%;
+        height: 80%;
         align-items: center;
-        margin: 1em;
+        align-content: center;
     }
 
     #television {
         display: flex;
         width: 100%;
-        height: 100%;
-        justify-content: center;
-    }
-
-    #culo2 {
-        display: flex;
-        width: 100%;
-        height: 100%;
+        height: 65%;
         justify-content: center;
     }
 
     #controlRemoto {
         display: flex;
-        width: 15%;
+        width: 20%;
         height: auto;
-        margin: 1em;
-        background-color: #33ff00;
-        border-radius: 1em;
-
     }
 
     #botonera {
@@ -198,21 +174,71 @@ button {
     }
 
     #masmenos {
-        padding: 0.5em;
-        display: flex;
-        padding: 0.5em;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+        display: grid;
+        padding: 0.1em;
+
     }
 
     button {
         font-size: 1rem;
         font-family: Helvetica, sans-serif;
-        margin: 0.5em;
-        border-radius: 1em;
+        margin: 0.1em;
+
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+        grid-gap: 0px;
+    }
+
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+
+
+    #contenido {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        height: 75%;
+        align-items: center;
+        align-content: center;
+    }
+
+    #television {
+        display: flex;
+        width: 75%;
+        height: 85%;
+
+        justify-content: center;
+    }
+
+    #controlRemoto {
+        display: flex;
+        width: 20%;
+        height: auto;
+    }
+
+    #botonera {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #masmenos {
+        display: grid;
+        padding: 0.1em;
+        height: auto;
+    }
+
+    button {
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.1em;
+        margin: 0.1em;
+        border-radius: 0.7em;
+        border-width: 0.1em;
+        border-style: solid;
 
     }
 
