@@ -5,16 +5,45 @@
     <title>TV VALLE CREATIVO SUR</title>
     <meta charset="UTF-8">
     <title>VALLE CREATIVO</title>
-    <link rel="stylesheet" type="text/css" href="tvsur.css">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" </head>
-      
+    <link rel="stylesheet" type="text/css" href="tvalle.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" </head>
+
 <body>
+
+    <script>
+
+lista = [
+    'tres_sesenta',
+    'twitch_siempre',
+    'tchpro',
+    'techtrend',
+    'clubamigosdelaweb',
+    'clickpark',
+    'papi_tvg',
+    'sp_godlatino',
+    'ranmaseries'
+]
+
+var canalStart = lista[2]
+
+    </script>
 
     <div id="contenido">
 
         <div id="television">
+            
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+            <script type="text/javascript">
+                var options = {
+                    width: "100%",
+                    height: "100%",
+                    channel: canalStart,
+                    muted: false,
+                };
+            </script>
+
             <div id="culo2"></div>
+
         </div>
 
         <div id="controlRemoto">
@@ -31,25 +60,14 @@
             </div>
 
             <div id="masmenos">
-                <button onclick="cambioma()">CANAL + </button>
-                <button onclick="cambiome()">CANAL - </button>
+            <button onclick="cambioma()">CANAL + </button>
+            <button onclick="cambiome()">CANAL - </button>
             </div>
         </div>
     </div>
 
-    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-    <script type="text/javascript">
-        var options = {
-            width: "100%",
-            height: "100%",
-            channel: "clubamigosdelaweb",
-            muted: 'false',
-        };
-
-    </script>
-
- 
+    <script src="tvalle.js"></script>
+   
 </body>
 
 </html>
